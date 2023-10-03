@@ -1,16 +1,21 @@
 # profe_nintendo_db
 
-A new Flutter project.
+Alumno: Patricio André Rojas Condori
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Antes de nada comprovar que el path del proyecto sea valido, si lo descargas te saldra 'interficies_nintendo_db-master' IMPORTANTE QUE TODO SEAN '_'
 
-A few resources to get you started if this is your first Flutter project:
+This is a flutter project, to build it:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1 - Rename this folder to remove spaces and special characters
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2 - From the renamed folder, run the next instructions
+
+flutter create .
+
+flutter config --enable-web
+
+flutter run -d chrome
+
+flutter run -d macos
